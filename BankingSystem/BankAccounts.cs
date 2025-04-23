@@ -10,66 +10,75 @@ using System.Threading.Tasks;
 
 namespace BankingSystem
 {
-     class BankAccount()
+     class BankAccount
     {
-        int Money;
-        string name;
-        int Id;
-        string bankName;
-        string bankType;
-        string AccountNum;
+        private int money;
+        private string name;
+        private long id;
+        private string bankName;
+        private string bankType;
+        private string accountNum;
 
-        public void BankDetails(int money, string name, int Id, string bankName, string bankType, string AccountNum)
+        public string PrintDetails()
         {
-            Money = money;
+            this.money = money;
             this.name = name;
-            this.Id = Id;
+            this.id = id;
             this.bankName = bankName;
             this.bankType = bankType;
-            this.AccountNum = AccountNum;
+            this.accountNum = accountNum;
 
+            return $"Account Holder: {name}, ID: {id}, Bank Name: {bankName}, Bank Type: {bankType}, Account Number: {accountNum}, Balance: {money}";
+    
         }
+
 
         public void GetMoney()
         {
             Console.WriteLine("Enter the ammount you want to pull: ");
-            int Money = int.Parse(Console.ReadLine());
-            
-            
+            this.money = int.Parse(Console.ReadLine());
         }
 
         public void Getname()
         { 
             Console.WriteLine("Enter your name?: ");
-            string name = Console.ReadLine();
-            
-
+            this.name = Console.ReadLine();
         }
 
         public void GetId()
         {
             Console.WriteLine("Identification Please?: ");
-            int id = int.Parse(Console.ReadLine());
+            try
+            {
+                this.id= long.Parse(Console.ReadLine());
+            }
+            catch(OverflowException)
+            {
+                Console.WriteLine("The Id you entered is too large. Please try again.");
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("The Id you entered is not a number. Please try again.");
+            }
             
         }
 
         public void Getbank()
         {
-            string bankName = Console.ReadLine();
             Console.WriteLine("What's your bank name?: ");
-            
+            this.bankName = Console.ReadLine();
         }
 
         public void GetType()
         {
-            string type = Console.ReadLine();
             Console.WriteLine("What type is your bank?: ");
+            this.bankType = Console.ReadLine();
         }
 
         public void GetNum()
         {
             Console.WriteLine("What is your account number?: ");
-            int accountNum = int.Parse(Console.ReadLine());
+            this.accountNum = Console.ReadLine();
         }
 
     }

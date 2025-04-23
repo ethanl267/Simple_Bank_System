@@ -12,3 +12,17 @@ C:\Users\user-pc\Documents\BankingSystem\obj\Debug\net9.0\refint\BankingSystem.d
 C:\Users\user-pc\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.pdb
 C:\Users\user-pc\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.genruntimeconfig.cache
 C:\Users\user-pc\Documents\BankingSystem\obj\Debug\net9.0\ref\BankingSystem.dll
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.AssemblyInfoInputs.cache
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.AssemblyInfo.cs
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.csproj.CoreCompileInputs.cache
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.dll
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\refint\BankingSystem.dll
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.pdb
+C:\Users\ethan\Documents\BankingSystem\bin\Debug\net9.0\BankingSystem.exe
+C:\Users\ethan\Documents\BankingSystem\bin\Debug\net9.0\BankingSystem.deps.json
+C:\Users\ethan\Documents\BankingSystem\bin\Debug\net9.0\BankingSystem.runtimeconfig.json
+C:\Users\ethan\Documents\BankingSystem\bin\Debug\net9.0\BankingSystem.dll
+C:\Users\ethan\Documents\BankingSystem\bin\Debug\net9.0\BankingSystem.pdb
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\BankingSystem.genruntimeconfig.cache
+C:\Users\ethan\Documents\BankingSystem\obj\Debug\net9.0\ref\BankingSystem.dll

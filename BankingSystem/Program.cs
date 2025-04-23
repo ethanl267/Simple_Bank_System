@@ -10,18 +10,20 @@ namespace BankingSystem
       
             BankAccount bankAccount = new BankAccount();
 
-            //bankAccount.BankDetails(10000, "Brenden", 67890, "Cape Bank", "Savings", "CB123456");
 
-            bankAccount.GetMoney();
-            bankAccount.Getname();
-            bankAccount.GetId();
-            bankAccount.Getbank();
-            bankAccount.GetType();
-            bankAccount.GetNum();
 
-       
+            BankAccount.GetMoney();
+            BankAccount.Getname();
+            BankAccount.GetId();
+            BankAccount.Getbank();
+            BankAccount.GetType();
+            BankAccount.GetNum();
 
-            
+      
+            Console.WriteLine(BankAccount.PrintDetails());
+
+
+
         }
     }
 }
